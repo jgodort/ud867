@@ -19,4 +19,10 @@ solution file into this one.
 
 */
 
-//apply from: "solution.gradle"
+apply from: "solution.gradle"
+
+task tellJoke <<{
+
+    println "What's a build master's favorite black metal band?"
+    println "Gradle of Filth!"
+}
